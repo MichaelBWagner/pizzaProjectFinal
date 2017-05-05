@@ -1,0 +1,9 @@
+//important stuff goes here similar to dblocal.json
+{
+   "devServer":[
+    {
+       "url":"mongodb://pizza1:pizza1@localhost/pizzadb"//this should be something else //should be pizzapiedb:blahblahblAH
+       }]
+}
+
+//

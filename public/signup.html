@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sign up</title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href=".\css\styleB.css">
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+<body>
+<div class="container">
+<div class="page-header">
+<div class="row">
+  <div class="col-sm-3 col-xs-3"> 
+  	<img src="./images/logo1.jpg" alt="logo" style="width:150px;height:150px"> 
+  </div>
+  <div class="col-sm-7">
+  	<ul  class="list-inline">	
+  			<li><a class="list-inline-item" href="./main.html">Main</a></li>
+			<li><a class="list-inline-item" href="./menu.html">Menu</a></li><!-- prolly remove these .html tags-->
+			<li><a class="list-inline-item" href="./special.html">Special</a></li>
+			<li><a class="list-inline-item" href="./signup.html">Sign up</a></li>
+	</ul>
+	</div>
+	<div class="col-sm-2">
+		<a href="./cart"><img src="./images/cart.png" alt="cart" style="width:60px;height:60px;"> <span class="badge" id="numItems"></span></a>	
+  </div>
+  </div>
+</div>
+
+	<div class="row">
+        <h3>sign up form</h3>
+<!---->
+<form method="POST" action="/signup" id="loginform" role="form">
+			<div id="signup">
+				Username:<br>
+
+		<input type="text" name="username" value="" id="login-username">
+		<br>
+		Password:<br>
+		<input type="password" name="password" value="" id="login-password">
+		<br><br>
+		<input type="submit" value="Submit">
+		</div>
+</form>
+	<hr></div>
+	
+	<footer >
+    <div class="list-inline">
+		<img src="./images/logo1.jpg" alt="logo" height="100" width="100">
+		<a class="list-inline-item" href="./service.html">Customer Service</a>
+		<a class="list-inline-item"href="./account.html">Account</a>
+		<a class="list-inline-item"href="./special.html">Special</a>
+		<a class="list-inline-item"href="./signup.html">Sign Up</a>
+	</div>
+		<div class="row">
+		<div class="col-sm-4">
+		<p>We have been serving up delicious pizza pies since 1965!</p>
+		</div>
+		<div class="col-sm-4">
+			<p>We use only the freshest ingredients. All of which were produced locally!</p>
+		</div>
+		<div class="col-sm-4">
+			<p>Got a craving for creamy alfredo? What about char-grilled chicken? Try our brand new chicken alfredo pizza!</p>
+		</div>
+		</div>
+	</footer>
+</div>
+<sript type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="./js/setting.js"></script>
+<script type="text/javascript" src="./js/funcs.js"></script>
+<script type="text/javascript" >
+
+
+</script>
+</body>
+</html>
+
+
+
